@@ -6,8 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.bridge.androidtechnicaltest.App;
 import com.bridge.androidtechnicaltest.R;
+import com.bridge.androidtechnicaltest.db.PupilDao;
+
+import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {
+
+    @Inject PupilDao pupilDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
