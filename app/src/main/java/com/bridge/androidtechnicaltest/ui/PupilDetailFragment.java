@@ -11,10 +11,10 @@ import com.bridge.androidtechnicaltest.R;
 
 public class PupilDetailFragment extends Fragment {
 
-	@Nullable
-	@Override
-	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.fragment_pupildetail, container, false);
-		return view;
-	}
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_pupildetail, container, false);
+        return view;
+    }
 }
