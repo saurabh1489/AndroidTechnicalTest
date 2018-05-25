@@ -12,14 +12,14 @@ import com.bridge.androidtechnicaltest.R;
 
 public class PupilListFragment extends Fragment {
 
-	private RecyclerView recyclerView;
+    private RecyclerView recyclerView;
 
-	@Nullable
-	@Override
-	public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.fragment_pupillist, container, false);
-		recyclerView = (RecyclerView) view.findViewById(R.id.pupil_list);
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_pupillist, container, false);
+        recyclerView = view.findViewById(R.id.pupil_list);
 
-		return view;
-	}
+        return view;
+    }
 }
