@@ -4,7 +4,7 @@
 
 ## Objective
 
-Below are a setup of requirements from a business owner withn Bridge International Academies, relating to a need to be able to administer pupil information from a mobile application.  The basic framework of the application already exists, but needs to be extended with the some or all of the given requirements.
+Below are a set of requirements from a business owner within Bridge International Academies, relating to a need to be able to administer pupil information from a mobile application.  The basic framework of the application already exists, but needs to be extended with the some or all of the given requirements.
 
 We assess a number of things including the design of your solution and your programming skills. While these are small problems, we expect you to submit what you believe is production-quality code – code that you’d be able to run, maintain, and evolve, including any tests that you would normally write as part of the development process. You don’t need to gold plate your solution; you do not have to complete all requirements; please submit when you are happy that you have demonstrated your ability to delivery within the alloted time frame.
 
