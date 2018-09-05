@@ -45,8 +45,9 @@ The requirements from the business owner are:
 
 1. I need to be able to see a list of all pupils.
 2. I need to be able to drill down into a detailed display for a single pupil.
-3. I need to be able to delete a pupil.
-4. The above requirements should continue when I am offline.  With data synchronising when I'm next online.
+3. I need to be able to add a new pupil and submit.
+4. I need to be able to delete a pupil.
+5. The above requirements should continue when I am offline.  With data synchronising when I'm next online.
 
 In addition, you should also:
 
