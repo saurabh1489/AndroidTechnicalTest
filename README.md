@@ -1,4 +1,4 @@
-![Bridge International Academies Logo](https://raw.githubusercontent.com/BridgeInternationalAcademies/AndroidTechnicalTest/master/Banner%20Logo%20280x60.png)
+![Bridge International Academies Logo](BannerLogo280x60.png)
 
 # Android Technical Test
 
@@ -17,7 +17,7 @@ If you have any questions about the code as it relates to your interview process
 
 The Technical Test API is a RESTful web service that makes uses of basic HTTP GET, POST, PUT and DELETE calls. The API documentation can be accessed [here](https://androidtechnicaltestapi-test.bridgeinternationalacademies.com/swagger/index.html).
 
-![Technical Test API](https://raw.githubusercontent.com/BridgeInternationalAcademies/AndroidTechnicalTest/master/Technical%20Test%20API.png)
+![Technical Test API](TechnicalTestAPI.png)
 
 ### Swagger
 
