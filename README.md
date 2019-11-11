@@ -15,9 +15,9 @@ If you have any questions about the code as it relates to your interview process
 
 ## Technical Test API
 
-The Technical Test API is a RESTful web service that makes uses of basic HTTP GET, POST, PUT and DELETE calls. The API documentation can be accessed [here](https://androidtechnicaltestapi-test.bridgeinternationalacademies.com/swagger/index.html/).
+The Technical Test API is a RESTful web service that makes uses of basic HTTP GET, POST, PUT and DELETE calls. The API documentation can be accessed [here](https://androidtechnicaltestapi-test.bridgeinternationalacademies.com/swagger/index.html).
 
-![Technical Test API](https://github.com/BridgeInternationalAcademies/AndroidTechnicalTest/blob/master/Technical%20Test%20API.png)
+![Technical Test API](https://raw.githubusercontent.com/BridgeInternationalAcademies/AndroidTechnicalTest/master/Technical%20Test%20API.png)
 
 ### Swagger
 
