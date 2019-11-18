@@ -6,7 +6,7 @@
 
 Below are a set of requirements from a business owner within Bridge International Academies, relating to a need to be able to administer pupil information from a mobile application.  The basic framework of the application already exists, but needs to be extended with the some or all of the given requirements.
 
-We assess a number of things including the design of your solution and your programming skills. While these are small problems, we expect you to submit what you believe is production-quality code – code that you’d be able to run, maintain, and evolve, including any tests that you would normally write as part of the development process. You don’t need to gold plate your solution; you do not have to complete all requirements; please submit when you are happy that you have demonstrated your ability to delivery within the alloted time frame.
+We assess a number of things including the design of your solution and your programming skills. While these are small problems, we expect you to submit what you believe is production-quality code – code that you’d be able to run, maintain, and evolve, including any tests that you would normally write as part of the development process. You don’t need to gold plate your solution; you do not have to complete all requirements; please submit when you are happy that you have demonstrated your ability to deliver within the alloted time frame.
 
 As a general rule, we allow three days from the date that you receive these instructions to submit your code, but you may request more time if needed. It is not required that all requirements are completed within this time period.  Please submit the exercise when you are happy with that you have demonstrated 
 
