@@ -1,13 +1,17 @@
 apply plugin: 'com.android.application'
 
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
 
     defaultConfig {
         applicationId "com.bridge.androidtechnicaltest"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -19,21 +23,40 @@ android {
     }
 }
 
+def koinVersion = "2.0.0"
+def androidXLegacySupport = "1.0.0"
+def roomVersion = "2.2.3"
+def retrofitVersion = "2.4.0"
+def rxandroidVersion = "2.0.2"
+def rxJavaVersion = "2.1.14"
 dependencies {
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
+    implementation "androidx.legacy:legacy-support-v4:$androidXLegacySupport"
+    implementation "androidx.appcompat:appcompat:$androidXLegacySupport"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'com.google.android.material:material:1.1.0'
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
     implementation 'com.google.dagger:dagger:2.11'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
-    implementation 'android.arch.persistence.room:runtime:1.0.0'
-    implementation 'android.arch.persistence.room:rxjava2:1.0.0'
-    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
-    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    implementation 'io.reactivex.rxjava2:rxjava:2.1.8'
-    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+>>>>>>> 56e9517... update dependencies, update to kotlin, update to androidx, update to koin
+=======
+>>>>>>> b16d38f... update to repository, update to pupils trhoughout, add todo
+    implementation "org.koin:koin-android-scope:${koinVersion}"
+    implementation "org.koin:koin-android-viewmodel:${koinVersion}"
+
+    implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-rxjava2:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+
+    implementation "io.reactivex.rxjava2:rxandroid:${rxandroidVersion}"
+    implementation "io.reactivex.rxjava2:rxjava:${rxJavaVersion}"
+    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}"
 
     testImplementation 'junit:junit:4.12'
     androidTestAnnotationProcessor 'com.google.dagger:dagger-compiler:2.11'

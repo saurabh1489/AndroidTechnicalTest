@@ -4,7 +4,17 @@
     <string name="pupil_detail_id">Id</string>
     <string name="pupil_detail_name">Name</string>
     <string name="pupil_detail_country">Country</string>
-    <string name="reset">Reset</string>
+    <string name="sync">Sync</string>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <string name="sync_success">Pupil list retrieved</string>
+    <string name="sync_failed">Failed to retrieve pupils</string>
+=======
     <string name="data_reset">Api Data Reset</string>
     <string name="data_reset_failed">Data Reset Failed</string>
+>>>>>>> 54c802c... update to remove reset endpoint, do get instead
+=======
+    <string name="sync_success">Pupil list retrieved</string>
+    <string name="sync_failed">Failed to retrieve pupils</string>
+>>>>>>> b16d38f... update to repository, update to pupils trhoughout, add todo
 </resources>
