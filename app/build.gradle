@@ -36,14 +36,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
     implementation 'com.google.android.material:material:1.1.0'
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    implementation 'com.google.dagger:dagger:2.11'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
->>>>>>> 56e9517... update dependencies, update to kotlin, update to androidx, update to koin
-=======
->>>>>>> b16d38f... update to repository, update to pupils trhoughout, add todo
     implementation "org.koin:koin-android-scope:${koinVersion}"
     implementation "org.koin:koin-android-viewmodel:${koinVersion}"
 
