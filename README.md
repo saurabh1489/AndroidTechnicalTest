@@ -22,7 +22,6 @@ User can navigate to add pupil screen by pressing add floating button on main sc
 Assumptions: No validation is performed on offline cached data. If server validation fails when upload is attempted after online,
 records with validation errors are discarded.
 
-![Technical Test API](TechnicalTestAPI.png)
 
 ## Additional Libraries
 
