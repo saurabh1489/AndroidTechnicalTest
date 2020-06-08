@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pupilListFragment">
+
+    <fragment
+        android:id="@+id/pupilListFragment"
+        android:name="com.bridge.androidtechnicaltest.ui.PupilListFragment"
+        android:label="PupilListFragment">
+        <action
+            android:id="@+id/actionGoToDetailScreen"
+            app:destination="@id/pupilDetailFragment" />
+        <action
+            android:id="@+id/actionGoToAddPupilScreen"
+            app:destination="@id/addPupilFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pupilDetailFragment"
+        android:name="com.bridge.androidtechnicaltest.ui.PupilDetailFragment"
+        android:label="PupilDetailFragment">
+        <argument
+            android:name="pupilId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPupilFragment"
+        android:name="com.bridge.androidtechnicaltest.ui.AddPupilFragment"
+        android:label="AddPupilFragment" />
+</navigation>

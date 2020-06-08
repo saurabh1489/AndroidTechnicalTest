@@ -4,8 +4,8 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "Pupils")
-class Pupil(
+@Entity(tableName = "Cache")
+class Cache(
         @PrimaryKey
         @ColumnInfo(name = "pupil_id")
         val pupilId: Long,
@@ -25,12 +25,7 @@ class Pupil(
         @ColumnInfo(name = "longitude")
         val longitude: Double
 ) {
-    fun toCache() =
-            run {
-                Cache(pupilId, name, country, image, latitude, longitude)
-            }
+    public fun toPupil() = run {
+        Pupil(pupilId, name, country, image, latitude, longitude)
+    }
 }
-
-class PupilList(
-        val items: MutableList<Pupil>
-)

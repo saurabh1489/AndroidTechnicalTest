@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidTechnicalTest.iml" filepath="$PROJECT_DIR$/AndroidTechnicalTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidTechnicalTest-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidTechnicalTest-app.iml" group="AndroidTechnicalTest/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bridge-AndroidTechnicalTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Bridge-AndroidTechnicalTest.iml" group="AndroidTechnicalTest" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,11 +1,14 @@
 package com.bridge.androidtechnicaltest.di
 
 import android.content.Context
+import androidx.lifecycle.ViewModel
 import androidx.room.Room
 import com.bridge.androidtechnicaltest.db.AppDatabase
 import com.bridge.androidtechnicaltest.network.PupilApi
+import com.bridge.androidtechnicaltest.repository.IPupilRepository
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
@@ -17,6 +20,7 @@ private const val BASE_URL = "https://androidtechnicaltestapi-test.bridgeinterna
 object PupilAPIFactory {
     fun retrofitPupil(): PupilApi {
         val builder = OkHttpClient.Builder()
+
         builder.readTimeout(API_TIMEOUT, TimeUnit.SECONDS)
         builder.writeTimeout(API_TIMEOUT, TimeUnit.SECONDS)
         builder.connectTimeout(API_TIMEOUT, TimeUnit.SECONDS)
@@ -32,6 +36,7 @@ object PupilAPIFactory {
             chain.proceed(newRequest)
         }
         builder.addInterceptor(requestInterceptor)
+        builder.addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
 
         return Retrofit.Builder()
                 .baseUrl(BASE_URL)
